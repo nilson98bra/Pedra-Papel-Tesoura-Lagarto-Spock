@@ -77,9 +77,147 @@ span{
     border-width: 1px;
     border-style: solid;
     position: relative;
+    cursor: pointer;
 }
 
 img{
     width: 60px;
     height: 60px;
+}
+
+@media screen and (max-width: 725px){
+
+    #game{
+        width: 650px;
+        height: 260px;
+       
+    }
+    
+    .personagens{
+        width: 76px;
+        height: 76px;
+    }
+    
+    img{
+        width: 51px;
+        height: 51px;
+    }
+    span{
+        font-size: 24px;
+        
+    }
+    #jogador{
+       
+        left: 25px;
+    }
+    
+    #maquina{
+     
+        right: 25px;
+    }
+}
+
+@media screen and (max-width: 600px){
+
+    #game{
+        width: 550px;
+        height: 201px;
+       
+    }
+    
+    .personagens{
+        width: 69px;
+        height: 69px;
+
+    }
+    
+    img{
+        width: 46px;
+        height: 46px;
+    }
+
+    #jogador{
+       
+        left: 40px;
+    }
+    
+    #maquina{
+     
+        right: 40px;
+    }
+
+    span{
+        font-size: 23px;
+        
+    }
+}
+
+@media screen and (max-width: 560px){
+
+    #game{
+        width: 495px;
+        height: 182px;
+       
+    }
+    #jogador{
+       
+        left: 80px;
+    }
+    
+    #maquina{
+     
+        right: 80px;
+    }
+
+
+
+}
+
+@media screen and (max-width: 487px){
+
+    #placar{
+      
+        width: 300px;
+        height: 250px;
+        top:-50px
+    }
+
+    #resultado{
+        width: 270px;
+        height: 100px;
+        top: 30px
+        
+    }
+
+    #jogador{
+        position: absolute;
+        bottom: 0;
+        left: 30px;
+    }
+    
+    #maquina{
+        position: absolute;
+        bottom: 0;
+        right: 30px;
+    }
+
+    #game{
+       
+        width: 300px;
+        height: max-content;
+        flex-wrap: wrap;
+        position: relative;
+        top: -25px;
+      
+        
+       
+    }
+    
+    .personagens{
+
+        margin: 25px;
+
+    }
+    
+
 }
