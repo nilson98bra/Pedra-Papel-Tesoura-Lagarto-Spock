@@ -8,24 +8,61 @@ main{
     align-items: center;
 }
 
+
 #placar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 630px;
+    height: 150px;
+    position: relative;
+}
+
+#resultado{
     width: 300px;
     height: 100px;
-    background-color: #fff;
-    position: relative;
-    top: -50px;
+    background-color: rgb(35, 35, 35);
+    border: 3px solid #fff;
     display: flex;
     align-items: center;
     justify-content: center;
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    
 }
+
+#mensagem{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(35, 35, 35); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+#jogador{
+    position: absolute;
+    left: 0;
+}
+
+#maquina{
+    position: absolute;
+    right: 0;
+}
+span{
+    font-size: 25px;
+    color: #fff;
+}
+
+
 #game{
     width: 700px;
     justify-content: space-around;
     align-items: center;
     display: flex;
     height: 260px;
-    position: relative;
-    top: -50px;
    
 }
 
@@ -37,7 +74,12 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-width: 5px;
+    border-width: 1px;
     border-style: solid;
+    position: relative;
 }
 
+img{
+    width: 60px;
+    height: 60px;
+}
