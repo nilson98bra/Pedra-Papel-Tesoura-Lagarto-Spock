@@ -176,7 +176,7 @@ img{
 @media screen and (max-width: 487px){
 
     #placar{
-      
+        
         width: 300px;
         height: 250px;
         
@@ -185,19 +185,19 @@ img{
     #resultado{
         width: 270px;
         height: 100px;
-        top: 50px
+     
         
     }
 
     #jogador{
         position: absolute;
-        bottom: 35px;
+        bottom: 15px;
         left: 30px;
     }
     
     #maquina{
         position: absolute;
-        bottom: 35px;
+        bottom: 15px;
         right: 30px;
     }
 
@@ -207,7 +207,7 @@ img{
         height: max-content;
         flex-wrap: wrap;
         position: relative;
-        top: -25px;
+        top: 0px;
       
         
        
